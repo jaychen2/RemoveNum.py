@@ -1,5 +1,5 @@
 # RemoveNum.py
 
-Read a list 
+Read a list of words
 
-Delete number from the list and saves in out
+Delete any numbers from the words and saves in list output
