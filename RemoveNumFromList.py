@@ -7,7 +7,7 @@ def remove(list):
     list = [re.sub(pattern1, '', i) for i in list]
     return list
 
-text_file = open("testfile.txt", "r")
+text_file = open(r"C:\Users\count\RemoveNum.py\testfile.txt", "r")
 
 list1 = text_file.readlines()
 
@@ -15,9 +15,8 @@ your_data = remove(list1)
 
 #print(*your_data, sep = "\n")
 
-print(*your_data, sep = "\n", file=open("output.txt","w"))
+print(*your_data, sep = "\n", file=open(r"C:\Users\count\RemoveNum.py\output.txt","w"))
 
-branch1 = 1
 
 
 
