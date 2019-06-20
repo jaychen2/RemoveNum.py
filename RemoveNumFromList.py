@@ -17,10 +17,7 @@ your_data = remove(list1)
 
 print(*your_data, sep = "\n", file=open("output.txt","w"))
 
-#test1
-
-wood = 5
-grass = 10
+branch1 = 1
 
 
 
